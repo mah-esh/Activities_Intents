@@ -1,0 +1,121 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mahesh.prac1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+	
+          <activity
+            android:name="com.mahesh1.SerialExec1"
+                   
+            android:theme="@style/AppBaseTheme" >
+          </activity>   
+           
+              
+         
+        
+      
+        
+          <activity
+            android:name="com.mahesh1.SerialExec2"
+                   
+            android:theme="@style/AppBaseTheme" >
+          </activity>
+        
+            <activity
+            android:name="com.mahesh1.SerialExec3"
+                   
+            android:theme="@style/AppBaseTheme" >
+          </activity>
+        
+              <activity
+            android:name="com.mahesh1.SerialExec4"
+                   
+            android:theme="@style/AppBaseTheme" >
+          </activity>
+        
+        
+              
+               <activity
+            android:name="com.mahesh2.ExplicitShift1"
+                   
+            android:theme="@style/AppBaseTheme" >
+            </activity>
+        
+                 <activity
+            android:name="com.mahesh2.ExplicitShift2"
+                   
+            android:theme="@style/AppBaseTheme" >
+          </activity>
+          
+        
+                        <activity
+            android:name="com.mahesh2.ExplicitShift3"
+                   
+            android:theme="@style/AppBaseTheme" >
+          </activity>
+          
+                                      <activity
+            android:name="com.mahesh2.ExplicitShift4"
+                   
+            android:theme="@style/AppBaseTheme" >
+          </activity>
+          
+                        
+                 <activity
+            android:name="com.mahesh3.ShareData1"
+                   
+            android:theme="@style/AppBaseTheme" >
+            
+            
+          </activity>
+                     
+                      <activity
+            android:name="com.mahesh3.ShareData2"
+                   
+            android:theme="@style/AppBaseTheme" >
+            
+                 
+            
+          </activity>
+          
+                     <activity
+            android:name="com.mahesh4.Action1"
+                   
+            android:theme="@style/AppBaseTheme" >
+            
+                                                        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+            
+       		 </intent-filter>    
+           
+          </activity> 
+                     
+                     
+                     <activity
+            android:name="com.mahesh4.Action2"
+                   
+            android:theme="@style/AppBaseTheme" >
+          </activity>
+          
+          <activity
+            android:name="com.example.samplelib.MainActivity"
+            android:theme="@style/AppBaseTheme" >
+            <intent-filter>
+                <action android:name="com.example.action1" />
+				<category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>    
+                 
+    </application>
+
+</manifest>
